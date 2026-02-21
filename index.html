@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N2nap — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #0a0a0a;
+            color: #e0ddd8;
+            line-height: 1.7;
+            padding: 3rem 1.5rem;
+        }
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+        }
+        .subtitle {
+            color: #8a8680;
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        p, li {
+            font-size: 0.95rem;
+            color: #c4c0ba;
+            margin-bottom: 0.75rem;
+        }
+        ul {
+            padding-left: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+        li { margin-bottom: 0.4rem; }
+        .highlight {
+            color: #4A7AE5;
+            font-weight: 500;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid #1a1a1a;
+            margin: 2rem 0;
+        }
+        .footer {
+            color: #5a5652;
+            font-size: 0.8rem;
+            margin-top: 3rem;
+        }
+        a { color: #4A7AE5; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>N2nap Privacy Policy</h1>
+        <p class="subtitle">Effective February 21, 2026</p>
+
+        <h2>The short version</h2>
+        <p>N2nap processes your heart rate and wrist movement <span class="highlight">entirely on your Apple Watch</span>. We have no servers, no accounts, no analytics, and no way to see your data. Nothing leaves your device.</p>
+
+        <hr class="divider">
+
+        <h2>What data N2nap uses</h2>
+        <p>During a nap session, N2nap reads two types of sensor data to detect when you fall asleep:</p>
+        <ul>
+            <li><strong>Heart rate</strong> — sampled from the optical sensor via HealthKit to detect the drop that occurs at sleep onset.</li>
+            <li><strong>Wrist movement</strong> — read from the accelerometer via CoreMotion to detect stillness.</li>
+        </ul>
+        <p>This data is processed in real time on your Apple Watch and is not stored beyond the current session's summary statistics (e.g., baseline heart rate, time to fall asleep).</p>
+
+        <h2>Apple Health integration</h2>
+        <p>If you enable the Apple Health setting, N2nap writes a sleep analysis record to the Health app after each completed nap. This includes the time you fell asleep and the time the alarm fired.</p>
+        <p>You can disable this at any time in N2nap's settings. N2nap never reads your historical Health data — it only reads heart rate during active nap sessions.</p>
+
+        <h2>What N2nap does not do</h2>
+        <ul>
+            <li>No data is transmitted off your device</li>
+            <li>No analytics or usage tracking of any kind</li>
+            <li>No user accounts or sign-in</li>
+            <li>No advertising or ad identifiers</li>
+            <li>No third-party SDKs or services</li>
+            <li>No cloud storage or sync</li>
+        </ul>
+
+        <h2>Nap history</h2>
+        <p>N2nap stores your nap session history (duration, time to fall asleep, heart rate summary) locally on your Apple Watch using on-device storage. This data stays on your device and is only visible to you within the app.</p>
+
+        <h2>Children's privacy</h2>
+        <p>N2nap does not knowingly collect data from children under 13. The app requires Apple Watch hardware and an associated iPhone, which are subject to Apple's own parental controls.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>If this policy changes, the updated version will be posted here with a new effective date.</p>
+
+        <hr class="divider">
+
+        <h2>Contact</h2>
+        <p>Questions about this policy? Open an issue at <a href="https://github.com/bdkoeh/n2nap-support/issues">github.com/bdkoeh/n2nap-support/issues</a>.</p>
+
+        <p class="footer">N2nap is made by an independent developer. This app has no affiliation with Apple Inc.</p>
+    </div>
+</body>
+</html>
